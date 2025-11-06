@@ -266,6 +266,27 @@ body {
   text-decoration: underline;
 }
 
+/* Photo Gallery */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.gallery-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-photo:hover {
+  transform: scale(1.05);
+}
+
 /* Contact Section */
 .contact-links a {
   color: #4f46e5;

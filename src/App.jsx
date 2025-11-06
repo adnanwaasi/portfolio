@@ -31,7 +31,7 @@ const HomePage = () => {
         </section>
 
         <section id="portfolio" className="section-block">
-          <h2>Portfolio</h2>
+          <h2>Projects</h2>
           <div className="portfolio-grid">
             <div className="portfolio-item">
               <h3>Project 1</h3>
@@ -41,11 +41,30 @@ const HomePage = () => {
             </div>
             <div className="portfolio-item">
               <h3>Project 2</h3>
-              <p>Brief all my weird projects here i just love to make them using tensorflow and torch according to my interests.</p>
-              <a href="https://www.github.com/adnanwaasi/my_models">Learn More</a> <br/>
-              <a href="https://www.github.com/adnanwaasi/my_weird_model">for my future projects</a>
+              <p> this is my code generator , you can vibe code anything easily with this  </p>
+              <a href="https://github.com/adnanwaasi/mcpwidows/tree/main/utils">Learn More</a> <br/>
+            </div>
+            <div className="portfolio-item">
+              <h3>Project 3</h3>
+              <p>A personal project exploring the capabilities of a unique model architecture and detecting fraud in financial transactions.</p>
+              <a href="https://github.com/adnanwaasi/my_weird_model" target="_blank" rel="noopener noreferrer">Learn More</a>
+            </div>
+            <div className="portfolio-item">
+              <h3>More Projects</h3>
+              <p>Explore more of my projects on GitHub.</p>
+              <a href="https://github.com/adnanwaasi" target="_blank" rel="noopener noreferrer">Visit My GitHub</a>
             </div>
             {/* Add more portfolio items here */}
+          </div>
+        </section>
+
+        <section id="photos" className="section-block">
+          <h2>Photo Gallery</h2>
+          <div className="photo-gallery">
+            <img src="/CTF.jpg" alt="Photo 1" className="gallery-photo" />
+            <img src="/ram_crash.jpg" alt="Photo 2" className="gallery-photo" />
+            <img src="/won.jpg" alt="Photo 3" className="gallery-photo" />
+            {/* Add more photos here */}
           </div>
         </section>
 
@@ -53,8 +72,8 @@ const HomePage = () => {
           <h2>Get In Touch</h2>
           <p>Feel free to reach out to me via email or connect with me on social media!</p>
           <p className="contact-links">
-            Email: <a href="mailto:adnanwaasi1@gamil.com">adnanwaasi1@example.com</a><br/>
-            LinkedIn: <a href="https://linkedin.com/in/adnanwaasi">linkedin.com/in/adnanwaasi</a><br/>
+            Email: <a href="mailto:adnanwaasi1@gmail.com">adnanwaasi1@gmail.com</a><br/>
+            LinkedIn: <a href="https://www.linkedin.com/in/adnan-waasi-69b077266/">linkedin.com/in/adnan-waasi-69b077266/</a><br/>
             GitHub: <a href="https://github.com/adnanwaasi">github.com/adnanwaasi</a>
           </p>
         </section>
