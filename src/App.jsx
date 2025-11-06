@@ -9,7 +9,7 @@ const HomePage = () => {
           <a href="#" className="nav-brand">Adnan Waasi</a>
           <ul className="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -27,7 +27,9 @@ const HomePage = () => {
 
         <section id="about" className="section-block">
           <h2>About Me</h2>
-          <p>Write a short bio here. Talk about your passion, skills, and what you do. This is a great place to introduce yourself to visitors and give them a sense of who you are.</p>
+          <p>I work primarily in AI/ML, focusing on deep learning, graph neural networks, and end-to-end intelligent systems. My experience includes building production-grade AI tools such as a code automation system, a collaborative-filtering recommendation model, and a GNN-powered AML detection pipeline that flagged 350+ suspicious transactions in its first month.
+
+I enjoy exploring model architectures, embeddings, vector stores, and LLM-powered workflows using PyTorch, TensorFlow, and LangChain. I’m always looking for opportunities to build scalable AI systems and solve real-world challenges through data and algorithms.</p>
         </section>
 
         <section id="portfolio" className="section-block">
